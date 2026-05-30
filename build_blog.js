@@ -125,7 +125,7 @@ posts.forEach((post, i) => {
             <nav class="nav-links">
                 <a href="../index.html">Audit Dashboard</a>
                 <a href="index.html" class="active">Technical Guides</a>
-                <a href="https://aiagent1510.github.io/Websites/" class="btn-nav">Contact Form</a>
+                <a href="https://garypearce.co.uk/" class="btn-nav">Contact Form</a>
             </nav>
         </div>
     </header>
@@ -140,7 +140,7 @@ posts.forEach((post, i) => {
         <div class="footer-container">
             <p>&copy; 2026 Gary Pearce Home Services. All rights reserved.</p>
             <p class="footer-links">
-                <a href="https://aiagent1510.github.io/Websites/">Online Contact Form</a>
+                <a href="https://garypearce.co.uk/">Online Contact Form</a>
             </p>
         </div>
     </footer>
@@ -183,7 +183,7 @@ const indexHtml = `<!DOCTYPE html>
             <nav class="nav-links">
                 <a href="../index.html">Audit Dashboard</a>
                 <a href="index.html" class="active">Technical Guides</a>
-                <a href="https://aiagent1510.github.io/Websites/" class="btn-nav">Contact Form</a>
+                <a href="https://garypearce.co.uk/" class="btn-nav">Contact Form</a>
             </nav>
         </div>
     </header>
@@ -204,7 +204,7 @@ const indexHtml = `<!DOCTYPE html>
         <div class="footer-container">
             <p>&copy; 2026 Gary Pearce Home Services. All rights reserved.</p>
             <p class="footer-links">
-                <a href="https://aiagent1510.github.io/Websites/">Online Contact Form</a>
+                <a href="https://garypearce.co.uk/">Online Contact Form</a>
             </p>
         </div>
     </footer>
