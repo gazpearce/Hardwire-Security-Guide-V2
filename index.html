@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Security Guide v2 | Interactive Home Security Audit</title>
+    <meta name="description" content="Audit your home security with our interactive circular audit checklist. Calculate your rating and improve your security compliance today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>Security Guide v2</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Audit Dashboard</a>
+                <a href="blog/index.html">Technical Guides</a>
+                <a href="https://aiagent1510.github.io/Websites/" class="btn-nav">Contact Form</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="dashboard-layout">
+        <!-- Gauge Card -->
+        <section class="gauge-section card">
+            <h2>Your Home Security Rating</h2>
+            <p class="subtitle">Complete the checklist below to calculate your overall system score.</p>
+            <div class="gauge-wrapper">
+                <svg class="gauge-svg" viewBox="0 0 200 200">
+                    <circle class="gauge-bg" cx="100" cy="100" r="85"></circle>
+                    <circle class="gauge-progress" cx="100" cy="100" r="85"></circle>
+                </svg>
+                <div class="gauge-text">
+                    <span id="gauge-val">0</span><span class="pct">%</span>
+                    <span id="gauge-label" class="status-label">Vulnerable</span>
+                </div>
+            </div>
+            <div class="quick-summary">
+                <p>Ensure your home security infrastructure conforms to British Standards (NSI / SSAIB).</p>
+            </div>
+        </section>
+
+        <!-- Checklist Card -->
+        <section class="checklist-section card">
+            <h2>Home Security Checklist</h2>
+            <p class="subtitle">Toggle points below to update your dynamic score in real time.</p>
+            
+            <div class="checklist-categories">
+                <!-- Category 1 -->
+                <div class="check-category">
+                    <h3>1. Perimeter & Physical Security</h3>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-perimeter-1" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>Double-Locking Entryways</strong>
+                            <p>British Standard 5-lever mortice deadlocks installed on all solid-wood external doors.</p>
+                        </div>
+                    </label>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-perimeter-2" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>Secured Side Gates</strong>
+                            <p>High-security heavy duty padbolts and padlocks locking side access routes.</p>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="check-category">
+                    <h3>2. Smart Surveillance Setup</h3>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-cctv-1" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>Full HD NSI/SSAIB Cam Angles</strong>
+                            <p>Properly positioned HD cameras covering driveways and key blind spots.</p>
+                        </div>
+                    </label>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-cctv-2" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>PoE VLAN Network Isolation</strong>
+                            <p>Surveillance feeds isolated on a dedicated VLAN separate from home WiFi.</p>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="check-category">
+                    <h3>3. Intruder Alarms</h3>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-alarm-1" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>Wireless Alarm Battery Backup</strong>
+                            <p>Fully charged battery back-up system ensuring alarm remains operational during power failure.</p>
+                        </div>
+                    </label>
+                    <label class="check-item">
+                        <input type="checkbox" id="check-alarm-2" class="security-check">
+                        <span class="checkmark"></span>
+                        <div class="check-desc">
+                            <strong>Zoned PIR Motion Sensors</strong>
+                            <p>PIR dual-tech motion sensors covering main hallways, ground-floor rooms, and landings.</p>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Gary Pearce Home Services. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://aiagent1510.github.io/Websites/">Online Contact Form</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
