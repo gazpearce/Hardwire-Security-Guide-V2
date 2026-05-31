@@ -10,21 +10,9 @@ if (!fs.existsSync(topicsPath)) {
 const rawTopics = JSON.parse(fs.readFileSync(topicsPath, 'utf8'));
 
 const targetUrls = [
-    { url: "https://garypearce.co.uk/", anchor: "GP Home Services" },
-    { url: "https://garypearce.co.uk/cctv-installation/", anchor: "professional CCTV installation guide" },
-    { url: "https://garypearce.co.uk/wifi-networking/", anchor: "home network design guide" },
-    { url: "https://garypearce.co.uk/data-cabling/", anchor: "structured data cabling services" },
-    { url: "https://garypearce.co.uk/tv-mounting/", anchor: "TV wall mounting support" },
-    { url: "https://cctvsmartsystems.co.uk/", anchor: "CCTV Smart Systems" },
-    { url: "https://cctvsmartsystems.co.uk/cctv-installation-newcastle/", anchor: "CCTV installation Newcastle" },
-    { url: "https://cctvsmartsystems.co.uk/cctv-installation-durham/", anchor: "CCTV installation Durham" },
-    { url: "https://cctvsmartsystems.co.uk/cctv-installation-sunderland/", anchor: "CCTV installer Sunderland" },
-    { url: "https://cctvsmartsystems.co.uk/cctv-installation-middlesbrough/", anchor: "security camera setup Middlesbrough" },
-    { url: "https://cctv.services/", anchor: "CCTV commercial services" },
-    { url: "https://adicommunications.co.uk/", anchor: "ADI Communications" },
-    { url: "https://adicommunications.co.uk/cctv-installation/", anchor: "commercial surveillance setup" },
-    { url: "https://adicommunications.co.uk/wifi-networking/", anchor: "business wireless networks" },
-    { url: "https://adicommunications.co.uk/data-cabling/", anchor: "fibre and data wiring" }
+    { url: "https://aiagent1510.wixsite.com/cctv/blog", anchor: "CCTV installation blog" },
+    { url: "https://aiagent1510.wixsite.com/cctv/blog", anchor: "Gary Pearce Security Blog" },
+    { url: "https://aiagent1510.wixsite.com/cctv/blog", anchor: "professional CCTV guide" }
 ];
 
 const externalUrls = [
@@ -268,7 +256,7 @@ posts.forEach((post, i) => {
             <nav class="nav-links">
                 <a href="../index.html">Audit Dashboard</a>
                 <a href="index.html" class="active">Technical Guides</a>
-                <a href="https://garypearce.co.uk/" class="btn-nav">Contact Form</a>
+                <a href="https://aiagent1510.wixsite.com/cctv/blog" class="btn-nav">Contact Form</a>
             </nav>
         </div>
     </header>
@@ -283,7 +271,7 @@ posts.forEach((post, i) => {
         <div class="footer-container">
             <p>&copy; 2026 Gary Pearce Home Services. All rights reserved.</p>
             <p class="footer-links">
-                <a href="https://garypearce.co.uk/">Online Contact Form</a>
+                <a href="https://aiagent1510.wixsite.com/cctv/blog">Online Contact Form</a>
             </p>
         </div>
     </footer>
@@ -326,7 +314,7 @@ const indexHtml = `<!DOCTYPE html>
             <nav class="nav-links">
                 <a href="../index.html">Audit Dashboard</a>
                 <a href="index.html" class="active">Technical Guides</a>
-                <a href="https://garypearce.co.uk/" class="btn-nav">Contact Form</a>
+                <a href="https://aiagent1510.wixsite.com/cctv/blog" class="btn-nav">Contact Form</a>
             </nav>
         </div>
     </header>
@@ -347,7 +335,7 @@ const indexHtml = `<!DOCTYPE html>
         <div class="footer-container">
             <p>&copy; 2026 Gary Pearce Home Services. All rights reserved.</p>
             <p class="footer-links">
-                <a href="https://garypearce.co.uk/">Online Contact Form</a>
+                <a href="https://aiagent1510.wixsite.com/cctv/blog">Online Contact Form</a>
             </p>
         </div>
     </footer>
